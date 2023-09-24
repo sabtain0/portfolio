@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(1, 1, 39);
+    color: white;
+    height: 190vh;
+    /* min-width: 253.94045534150612vh; */
+    overflow: cover;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    height: 15vh;
+    background-color: rgb(3, 3, 63);
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: rgb(99, 99, 175);
+}
+
+.left {
+    font-size: 1.7rem;
+}
+
+.one {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 39px;
+
+}
+
+.one>div {
+    /* background-color: red; */
+    width: 30%;
+    margin: 22px;
+}
+
+.one .first1 {
+    /* background-color: red; */
+    font-size: 2.7rem;
+    margin-top: 70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    width: 100%;
+    /* background-color: red; */
+    /* margin: 7px 0; */
+}
+
+#pruple,
+#element {
+    color: rgb(111, 66, 148);
+}
+
+#grey {
+    color: gray;
+}
+
+.two {
+    margin: auto;
+    max-width: 80vw;
+    height: 90vh;
+}
+
+hr {
+    border: 0;
+    background: rgb(73, 73, 135);
+    height: 1.5px;
+    margin: 15px;
+}
+
+.two h1 {
+    font-size: 2rem;
+}
+
+.box {
+    height: 1px;
+    width: 80vw;
+    background: lavender;
+    margin-top: 55px;
+    display: flex;
+}
+
+.vertical {
+    height: 60px;
+    width: 1px;
+    background: white;
+    margin: 0 130px 0 110px;
+}
+
+#img-top {
+    width: 23px;
+    position: relative;
+    top: -46px;
+    left: -10px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 40px;
+    width: 150px;
+    font-size: 19px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 50px;
+    width: 150px;
+    color: gray;
+    font-size: 13px;
+}
+
+.footer {
+    /* height: 35vh; */
+    background-color: rgb(15, 15, 55);
+    padding: 33px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-first {
+    padding: 0 52px;
+}
+
+.footer>div {
+    width: 200px;
+    /* padding:0 90px ; */
+}
+
+/* .footer-second{
+    padding: 0 33px;
+} */
+
